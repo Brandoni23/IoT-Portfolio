@@ -1,14 +1,3 @@
-# esp-examples
+# Project 2: Rainmaker I2C Temperature Reading
 
-Example programs for the ESP32 used in CSCI 332 / IoT.
-
-## Instructions
-
-Please put your work in your own branch under a subfolder from the root of this repo. For example if you created an ADC example, you might make the "SuperCoolAdc" branch and then put your work in the folder "/SuperCoolAdcExample". When you push your code to the gitlab repo it will give you a URL to create a merge request. Follow the link and create a merge request and I will add your code to the main branch if it looks good. 
-
-
-## More info
-
- * [Feature Branch Workflow](https://docs.gitlab.com/ee/gitlab-basics/feature_branch_workflow.html)
- * [Getting started with merge requests](https://docs.gitlab.com/ee/user/project/merge_requests/getting_started.html)
-
+This is my code for adding a widget to the Rainmaker cloud server in app_main.c. It also accesses the temperature data from the app_driver.c code file which uses I2C to get the data. The app_priv.h header file transfers the temperature's global float variable from the driver file to the main file.
